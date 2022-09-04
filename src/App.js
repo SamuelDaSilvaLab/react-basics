@@ -1,10 +1,10 @@
 import "./styles.css";
-import Basics from '../topics/Basics';
+import Basics from "../pages/Basics";
 
 export default function App() {
   return (
     <div className="App">
-        <Basics />
+      <Basics />
     </div>
   );
 }
