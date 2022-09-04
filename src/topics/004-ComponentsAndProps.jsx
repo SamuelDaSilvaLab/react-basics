@@ -10,4 +10,12 @@ class ES6Component extends React.Component {
   }
 }
 
-export { FuncComponent, ES6Component };
+export default function CompAndProps() {
+  return (
+    <>
+      <h1>Components and Props</h1>
+      <FuncComponent name="Samuel da Silva" />
+      <ES6Component text="ES6 Component" />
+    </>
+  );
+}
